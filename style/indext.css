@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgb(200, 200, 248);
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+.products .product{
+    width: 33.2%;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+.products div img{
+    width: 100%;
+}
+h1,h2{
+    text-align: center;
+}
+a{
+    display: block;
+}
+span{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
